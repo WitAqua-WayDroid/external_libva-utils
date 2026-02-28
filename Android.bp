@@ -50,6 +50,7 @@ cc_defaults {
         "libgui",
         "libdrm",
     ],
+    header_libs: ["libva_headers"],
 
     vendor: true,
     enabled: false,
